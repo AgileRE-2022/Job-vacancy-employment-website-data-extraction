@@ -31,7 +31,7 @@ links = driver.find_elements_by_xpath("//a[@class='disabled ember-view job-card-
 links =[link.get_attribute("href") for link in links]
 sleep(1)
 
-l#webdriver microsoft edge
+#webdriver microsoft edge
 driver = webdriver.Edge('C:/Users/helmi/Downloads/edgedriver_win64/msedgedriver.exe')
 
 #mengakses web linkedin
