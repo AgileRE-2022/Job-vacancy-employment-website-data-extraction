@@ -29,6 +29,7 @@ from nltk.tokenize import word_tokenize
 
 import regex as re
 
+
 import gensim
 from gensim.utils import simple_preprocess
 from gensim.models import CoherenceModel

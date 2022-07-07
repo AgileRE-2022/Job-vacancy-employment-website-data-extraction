@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../static/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/favicon-16x16.png">
+    <link rel="manifest" href="../static/site.webmanifest">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Job Scrapping Topic Modelling</title>
+</head>
+<body>
+  <div class="p-5 mb-4 bg-dark text-white rounded-3">
+    <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Web Job Listing Scraping</h1>
+        <p class="col-md-8 fs-4">Text Scrapping on Linkedin to find Jobs related to Information Systems and Relevant Keyword and Topic for Each Job</p>
+        <p class="col-md-8 fs-4">Scrapping Using Selenium, Topic Modelling using LDA (Latent Dirichlet allocation)</p>
+        <a class="btn btn-primary btn-lg" href="{% url 'scrap' %}"> Data </a>
+        <a class="btn btn-light btn-lg" href="{% url 'data' %}" >Data from Scrapping</a>
+        <a class="btn btn-secondary btn-lg" href="{% url 'topicmodelling' %}" >Topic Modelling Result</a>
+      </div>
+</div>
+</body>
+</html>
