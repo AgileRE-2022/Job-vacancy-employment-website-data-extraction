@@ -10,7 +10,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from bs4 import BeautifulSoup
 
 #webdriver microsoft edge
-driver = webdriver.Edge('C:/Users/helmi/Downloads/edgedriver_win64/msedgedriver.exe')
+driver = webdriver.Edge('C:/Users/helmi/Downloads/edgedriver_win64 (2)/msedgedriver.exe')
 
 #mengakses web linkedin
 driver.get('https://www.linkedin.com')
@@ -22,7 +22,7 @@ password = driver.find_element_by_name('session_password')
 password.send_keys(parameter.password)
 submit = driver.find_element_by_class_name('sign-in-form__submit-button')
 submit.click()
-sleep(2)
+sleep(10)
 
 driver.get(parameter.siteQuery)
 sleep(5)
